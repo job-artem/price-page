@@ -1,0 +1,125 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.page {
+    padding: 0;
+    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+.price-cards {
+    margin: auto;
+    display: flex;
+}
+
+.price-card {
+    position: relative;
+    width: 380px;
+    height: 770px;
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    margin-right: 15px;
+    &__title {
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+        margin: 0;
+        margin-top: 30px;
+    }
+    &__title-low {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__price {
+        height: 104px;
+        display: flex;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 67px;
+        margin: 0;
+        margin-top: 36px;
+        /* identical to box height */
+        span {
+            margin: auto;
+        }
+    }
+    &__description {
+        margin: 0;
+        margin-top: 39px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    &__options-list {
+        margin: 0;
+        margin-top: 42px;
+    }
+    &__option {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        img {
+            margin-left: 22px;
+        }
+        div {
+            margin-left: 21px;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+    &__option:nth-child(odd) {
+        background: #2A3438;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__order-btn {
+        border-radius: 20px;
+        display: block;
+        height: 40px;
+        width: 154px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-transform: uppercase;
+        text-align: center;
+        border: none;
+        margin: auto;
+        margin-top: 37px;
+        color: #fff;
+        margin-bottom: 42px;
+    }
+}
+
+.green {
+    background: #5BB189;
+}
+
+.blue {
+    background: #3A6BA5;
+}
+
+.orange {
+    background: #EC632A;
+}
+
+.popular__badge {
+    position: absolute;
+    right: -18px;
+    top: -18px;
+}
+
+.price-card:last-child {
+    margin-left: 0;
+}
