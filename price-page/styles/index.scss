@@ -16,6 +16,12 @@ html {
     display: flex;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .price-card {
     position: relative;
     width: 380px;
@@ -24,13 +30,11 @@ html {
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
     margin-right: 15px;
     &__title {
-        display: block;
         font-weight: bold;
         font-size: 35px;
         line-height: 43px;
         text-align: center;
         margin: 0;
-        margin-top: 30px;
     }
     &__title-low {
         font-size: 20px;
