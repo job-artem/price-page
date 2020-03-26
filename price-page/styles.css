@@ -43,7 +43,7 @@ html {
 }
 
 .price-card:nth-child(2) .price-card__title {
-  width: 164px;
+  width: 163px;
   height: 64px;
 }
 
@@ -129,12 +129,9 @@ html {
   line-height: 17px;
   /* identical to box height */
   text-transform: uppercase;
-  text-align: center;
   border: none;
-  margin: auto;
-  margin-top: 37px;
+  margin: 37px 113px 42px 112px;
   color: #fff;
-  margin-bottom: 42px;
 }
 
 .green {
