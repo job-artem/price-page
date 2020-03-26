@@ -1,18 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
 .page {
+  margin: auto;
   padding: 0;
-  display: flex;
   background-color: black;
-  width: 100vw;
-  height: 100vh;
+  width: 1440px;
+  height: 1000px;
 }
 
 .price-cards {
-  margin: auto;
   display: flex;
 }
 
@@ -20,6 +23,18 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+.price-card:nth-child(1) {
+  margin: 112px 0 118px 147px;
+}
+
+.price-card:nth-child(2) {
+  margin: 112px 18px 118px 15px;
+}
+
+.price-card:nth-child(3) {
+  margin: 109px 0 121px 0px;
 }
 
 .price-card:nth-child(1) .price-card__title {
@@ -43,7 +58,6 @@ html {
   height: 770px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  margin-right: 15px;
 }
 .price-card__title {
   font-weight: bold;
