@@ -5,11 +5,10 @@ html {
 
 .page {
     padding: 0;
-    padding-top: 100px;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     background-color: black;
+    width: 100vw;
+    height: 100vh;
 }
 
 .price-cards {
@@ -25,6 +24,7 @@ html {
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
     margin-right: 15px;
     &__title {
+        display: block;
         font-weight: bold;
         font-size: 35px;
         line-height: 43px;
@@ -36,6 +36,7 @@ html {
         font-size: 20px;
         line-height: 24px;
         text-align: center;
+        font-weight: normal;
     }
     &__price {
         height: 104px;
