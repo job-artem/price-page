@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -24,14 +28,17 @@ html {
 
 .price-card:nth-child(1) .price-card__title {
   width: 100px;
+  height: 64px;
 }
 
 .price-card:nth-child(2) .price-card__title {
   width: 164px;
+  height: 64px;
 }
 
 .price-card:nth-child(3) .price-card__title {
   width: 176px;
+  height: 64px;
 }
 
 .price-card {
@@ -75,8 +82,9 @@ html {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  padding-left: 26px;
-  padding-right: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
+  width: 327px;
 }
 .price-card__options-list {
   margin: 0;
