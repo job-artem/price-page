@@ -54,6 +54,7 @@ html {
 
 .price-card {
   position: relative;
+  overflow: hidden;
   width: 380px;
   height: 770px;
   background: #334247;
@@ -148,8 +149,20 @@ html {
 
 .popular__badge {
   position: absolute;
-  right: -18px;
-  top: -18px;
+  right: -31px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #FFFFFF;
+  transform: rotate(45deg);
+  background: #DC3F45;
+  width: 147px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-card:last-child {
