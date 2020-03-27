@@ -123,7 +123,9 @@ body {
 }
 .price-card__order-btn {
   border-radius: 20px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
   width: 155px;
   font-weight: normal;
