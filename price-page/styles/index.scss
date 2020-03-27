@@ -138,6 +138,11 @@
         }
     }
     
+    .price-card:nth-child(2) .price-card__price,
+    .price-card:nth-child(3) .price-card__price {
+        margin-top: 36px;
+    }
+    
     .green {
         background: #5BB189;
     }
