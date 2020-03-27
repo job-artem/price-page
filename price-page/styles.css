@@ -8,7 +8,9 @@ html {
 }
 
 .page {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   background-color: black;
   width: 1440px;
@@ -25,16 +27,8 @@ html {
   margin-top: 30px;
 }
 
-.price-card:nth-child(1) {
-  margin: 112px 0 118px 147px;
-}
-
 .price-card:nth-child(2) {
-  margin: 112px 18px 118px 15px;
-}
-
-.price-card:nth-child(3) {
-  margin: 109px 0 121px 0px;
+  margin: 0px 15px 0px 15px;
 }
 
 .price-card:nth-child(1) .price-card__title {
