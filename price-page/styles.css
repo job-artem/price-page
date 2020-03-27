@@ -81,8 +81,7 @@ html {
   margin: auto;
 }
 .price-card__description {
-  margin: 0;
-  margin-top: 39px;
+  margin: 39px auto;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
